@@ -7,7 +7,10 @@
   #include "WProgram.h"
 #endif 
 
+#if (ndefined(ESP32))
 #include <avr/pgmspace.h>
+#endif 
+
 #include <LiquidCrystal_I2C.h>
 #include <Print.h>
 
