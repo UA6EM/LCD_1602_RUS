@@ -7,7 +7,7 @@
   #include "WProgram.h"
 #endif 
 
-#if !defined(ESP32)
+#if !defined(ESP32) && !defined(RP2040) && !defined(RP2040W)
 #include <avr/pgmspace.h>
 #endif 
 
