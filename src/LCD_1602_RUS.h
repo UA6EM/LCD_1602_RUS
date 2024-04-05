@@ -7,7 +7,7 @@
   #include "WProgram.h"
 #endif 
 
-#if (ndefined(ESP32))
+#if (undefined(ESP32))
 #include <avr/pgmspace.h>
 #endif 
 
